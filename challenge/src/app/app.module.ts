@@ -21,6 +21,11 @@ import { MatInputModule } from '@angular/material/input';
 
 import { HomeComponent } from './views/home/home.component';
 import { FormularioComponent } from './views/formulario/formulario.component';
+import { DashboardComponent } from './views/dashboard/dashboard.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
+import { MatIconModule } from '@angular/material/icon';
+import { LayoutModule } from '@angular/cdk/layout';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,8 @@ import { FormularioComponent } from './views/formulario/formulario.component';
     FooterComponent,
     NavComponent,
     HomeComponent,
-    FormularioComponent
+    FormularioComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -42,7 +48,11 @@ import { FormularioComponent } from './views/formulario/formulario.component';
     MatButtonModule,
     FormsModule,
     MatFormFieldModule,
-    MatInputModule
+    MatInputModule,
+    MatGridListModule,
+    MatMenuModule,
+    MatIconModule,
+    LayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
