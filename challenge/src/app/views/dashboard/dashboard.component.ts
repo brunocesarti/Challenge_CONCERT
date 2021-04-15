@@ -13,18 +13,18 @@ export class DashboardComponent {
     map(({ matches }) => {
       if (matches) {
         return [
-          { title: 'Card 1', cols: 1, rows: 1 },
-          { title: 'Card 2', cols: 1, rows: 1 },
-          { title: 'Card 3', cols: 1, rows: 1 },
-          { title: 'Card 4', cols: 1, rows: 1 }
+          { title: 'Lista de Jogadores', cols: 1, rows: 1 },
+          { title: 'Jogador 1', cols: 1, rows: 1 },
+          { title: 'Jogador 2', cols: 1, rows: 1 },
+          { title: 'Jogador 3', cols: 1, rows: 1 }
         ];
       }
 
       return [
-        { title: 'Card 1', cols: 2, rows: 1 },
-        { title: 'Card 2', cols: 1, rows: 1 },
-        { title: 'Card 3', cols: 1, rows: 2 },
-        { title: 'Card 4', cols: 1, rows: 1 }
+        { title: 'Lista de Jogadores', cols: 3, rows: 1 },
+        { title: 'Jogador 1', cols: 1, rows: 1 },
+        { title: 'Jogador 2', cols: 1, rows: 1 },
+        { title: 'Jogador 3', cols: 1, rows: 1 }
       ];
     })
   );
